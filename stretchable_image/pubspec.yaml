@@ -1,0 +1,25 @@
+name: stretchable_image
+description: >
+  A Flutter widget that horizontally stretches the center area of an image
+  while keeping the left and right edges visually intact. Useful for chat
+  bubbles, resizable panels, and border-like images.
+version: 0.0.1
+homepage: https://github.com/Marsai-net/StretchableImage
+repository: https://github.com/Marsai-net/StretchableImage
+issue_tracker: https://github.com/Marsai-net/StretchableImage/issues
+
+environment:
+  sdk: ^2.17.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+
