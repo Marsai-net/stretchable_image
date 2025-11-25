@@ -1,5 +1,6 @@
 ## 0.0.1
 * initial release
-
 ## 0.0.2
-update readme
+* update readme
+## 0.0.3
+*  Fix bug if no MediaQuery ancestor exists

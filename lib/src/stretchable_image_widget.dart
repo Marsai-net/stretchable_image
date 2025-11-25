@@ -99,8 +99,9 @@ class _StretchableImageState extends State<StretchableImage> {
       }
       return const SizedBox.shrink();
     }
-
-    final pixelRatio = MediaQuery.of(context).devicePixelRatio;
+    //fix bug if no MediaQuery ancestor exists
+    double pixelRatio = MediaQuery.maybeDevicePixelRatioOf(context) ??
+        ui.PlatformDispatcher.instance.views.first.devicePixelRatio;
 
     // If user specifies size, use it directly.
     if (widget.size != null) {

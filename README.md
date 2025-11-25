@@ -16,6 +16,13 @@ This is especially useful for:
     - Or automatically adapts to parent constraints when `size` is `null`
 
 ---
+## Screenshot
+
+Example with different target widths (using `border.png`):
+
+![StretchableImage example](example/screenshots/screenshot.png)
+
+---
 
 ## Installation
 
@@ -23,7 +30,7 @@ This is especially useful for:
 
 
 ```yaml
-stretchable_image: ^0.1.0
+stretchable_image: ^{latestVersion}
 ```
  
 ---
@@ -199,13 +206,6 @@ class StretchableImageDemoPage extends StatelessWidget {
   });
   }
 ```
-  ---
-  ## Screenshot
-  
-  Example with different target widths (using `border.png`):
-
-  ![StretchableImage example](example/screenshots/screenshot.png)
-
   ---
 
 ## License
